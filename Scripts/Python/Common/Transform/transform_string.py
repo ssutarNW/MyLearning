@@ -22,6 +22,3 @@ def roman_to_integer(in_str):
             substract = 0
         i+=1
     return out_num
-
-if __name__ == "__main__":
-    print ("roman_to_integer({}) = {}".format(sys.argv[1], roman_to_integer(sys.argv[1])))

@@ -54,7 +54,3 @@ def integer_to_roman(in_num):
         denominator = denominator // 10
         if denominator == 0: denominator = 1
     return out_str
-
-if __name__ == "__main__":
-    print ("reverse_integer({}) = {}".format(sys.argv[1], reverse_integer(int(sys.argv[1]))))
-    print ("integer_to_roman({}) = {}".format(sys.argv[2], integer_to_roman(int(sys.argv[2]))))
